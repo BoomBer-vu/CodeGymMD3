@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson 1: JavaScript ES6</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+<ul>
+    <li>Inline: Nhúng trực tiếp vào HTML</li>
+    <li>Internal: Nhúng trực tiếp trong thẻ script trong cùng file HTMl</li>
+    <li>External: Nhúng từ file js bên ngoài</li>
+</ul>
+<button onclick="alert('Hello World 1!')">Click here 1</button>
+<button id="btn2">Click here 2</button>
+<button id="btn3">Click here 3</button>
+<script>
+    document.getElementById('btn2').addEventListener("click", function(){
+        alert('Hello World 2!');
+    })
+</script>
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
