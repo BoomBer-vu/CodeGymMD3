@@ -1,0 +1,16 @@
+{
+   "products": [
+     {
+       "id": 1,
+       "name": "Iphone 11 pro max",
+       "price": 1000,
+       "categoryId": 1
+     },
+
+     {
+       "id": 2,
+       "name": "Iphone 16 pro max",
+       "price": 1000
+     }
+   ]
+}
